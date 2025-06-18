@@ -26,18 +26,18 @@ NOTE: If you are having issues with permissions. And you get error:
 -- NOTE: This has been updated from the video to fix issues with encoding
 
 COPY company_dim
-FROM 'D:\SQL\csv_files\company_dim.csv'
-DELIMITER ',' CSV HEADER
+FROM 'D:\new_sql\csv_files\company_dim.csv'
+DELIMITER ',' CSV HEADER;
 
 COPY skills_dim
-FROM 'D:\SQL\csv_files\skills_dim.csv'
-DELIMITER ',' CSV HEADER
+FROM 'D:\new_sql\csv_files\skills_dim.csv'
+DELIMITER ',' CSV HEADER;
 
 COPY job_postings_fact
-FROM 'D:\SQL\csv_files\job_postings_fact.csv'
-DELIMITER ',' CSV HEADER
+FROM 'D:\new_sql\csv_files\job_postings_fact.csv'
+DELIMITER ',' CSV HEADER;
 
 COPY skills_job_dim
-FROM 'D:\SQL\csv_files\skills_job_dim.csv'
-DELIMITER ',' CSV HEADER
+FROM 'D:\new_sql\csv_files\skills_job_dim.csv'
+DELIMITER ',' CSV HEADER;
 
